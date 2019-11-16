@@ -1,0 +1,134 @@
+*, p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol !important";
+}
+
+.override_main {
+  font-size: 25px !important;
+}
+.override_practice {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.slider_bg_1 {
+  background-image: url(../img/banner/1.jpg);
+}
+.slider_bg_2 {
+  background-image: url(../img/banner/2.jpg);
+}
+.slider_bg_3 {
+  background-image: url(../img/banner/3.jpg);
+}
+
+.dream_service img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .dream_service .single_dream .thumb img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.footer .footer_top {
+  padding: 80px;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer .footer_top .footer_widget .social_links li a {
+  margin-right: 0;
+}
+
+.social_links {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  margin: 45px auto 0;
+}
+
+.details_bg_1{
+  background-image:url(../img/banner/1.jpg)
+}
+
+.project_details {
+  padding: 50px 0;
+}
+
+.override-content {
+  margin: 50px auto;
+  max-width: 680px;
+}
+
+.override-content-img {
+  display: flex;
+  width: 100%;
+}
+
+.override-content-img img {
+  width: 100%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.img-block {
+  flex: 1
+}
+
+.img-block + .img-block  {
+  margin-left: 20px;
+}
+
+.project_details .project_details_left {
+  padding-right: 0;
+}
+
+.lastest_project {
+  padding-top: 39px;
+}
+
+.section_title {
+  text-align: center;
+}
+
+.seperator {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #e0e0e0;
+  margin-top: 53px;
+}
+
+.header-area .main-header-area .main-menu {
+  text-align: right;
+}
+
+.item {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.item .item_sub {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.slicknav_btn {
+  top: -47px;
+  right: 15px;
+}
+
+@media (min-width: 992px) {
+  .header-area .main-header-area .main-menu ul li a {
+      font-size: 14px;
+  }
+}
+
+.slicknav_menu .slicknav_nav {
+   padding-bottom: 10px
+}

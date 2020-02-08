@@ -20,18 +20,29 @@
   background-image: url(../img/banner/3.jpg);
 }
 
-.dream_service img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
+.about_area {
+  padding-top: 75px;
+  padding-bottom: 25px;
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
-  .dream_service .single_dream .thumb img {
-    width: 180px;
-    height: 180px;
-  }
+.dream_service {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.dream_service img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.dream_service .single_dream {
+  padding: 0;
+  padding-top: 25px;
+}
+
+.cus-md-4 {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .footer .footer_top {
@@ -46,6 +57,11 @@
   margin-right: 0;
 }
 
+.footer_bg {
+  background-image: none;
+  background: #1B1D1E;
+}
+
 .social_links {
   width: 210px;
   display: flex;
@@ -53,8 +69,16 @@
   margin: 45px auto 0;
 }
 
-.details_bg_1{
+.details_bg_1 {
   background-image:url(../img/banner/1.jpg)
+}
+
+.details_bg_2 {
+  background-image:url(../img/banner/2.jpg)
+}
+
+.details_bg_3 {
+  background-image:url(../img/banner/3.jpg)
 }
 
 .project_details {
@@ -131,4 +155,11 @@
 
 .slicknav_menu .slicknav_nav {
    padding-bottom: 10px
+}
+
+@media (max-width: 767px) {
+  .mb-rev {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
